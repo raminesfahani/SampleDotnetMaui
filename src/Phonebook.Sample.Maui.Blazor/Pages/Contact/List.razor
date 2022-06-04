@@ -1,0 +1,29 @@
+﻿@using System.Net.Http.Json
+@using Phonebook.Sample.Maui.Application.Models
+@using Phonebook.Sample.Maui.Application.Services
+@inject HttpClient httpClient
+@inject ContactService contactService
+
+@page "/contact/list"
+
+<h3>List</h3>
+
+<h3>List</h3>
+
+<MudDataGrid Items="@Contacts">
+    <Columns>
+        <Column T="AppContact" Field="Id" />
+        <Column T="AppContact" Field="Name" />
+        <Column T="AppContact" Field="Phonenumber" />
+        <Column T="AppContact" Field="Email" />
+    </Columns>
+</MudDataGrid>
+@code {
+    private IEnumerable<AppContact> Contacts = new List<AppContact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1);
+        Contacts = contactService.GetItems();
+    }
+}

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{321AD925-B29B-4B9F-99BA-BAAD8E996E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{045685AF-2242-4236-83EE-90F37707E13D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Sample.Maui", "src\Phonebook.Sample.Maui\Phonebook.Sample.Maui.csproj", "{59C58832-21C0-4D38-B815-FB163CC7993A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Sample.Maui.Application", "src\Phonebook.Sample.Maui.Application\Phonebook.Sample.Maui.Application.csproj", "{DB14A81D-F477-4205-8F55-4966457EBE55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Sample.Maui.Blazor", "src\Phonebook.Sample.Maui.Blazor\Phonebook.Sample.Maui.Blazor.csproj", "{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.Sample.Maui.Application.UnitTest", "tests\Phonebook.Sample.Maui.Application.UnitTest\Phonebook.Sample.Maui.Application.UnitTest.csproj", "{AAE42E2D-53B7-47A1-89EB-E3302E03DF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C58832-21C0-4D38-B815-FB163CC7993A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB14A81D-F477-4205-8F55-4966457EBE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB14A81D-F477-4205-8F55-4966457EBE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB14A81D-F477-4205-8F55-4966457EBE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB14A81D-F477-4205-8F55-4966457EBE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AAE42E2D-53B7-47A1-89EB-E3302E03DF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE42E2D-53B7-47A1-89EB-E3302E03DF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE42E2D-53B7-47A1-89EB-E3302E03DF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE42E2D-53B7-47A1-89EB-E3302E03DF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59C58832-21C0-4D38-B815-FB163CC7993A} = {321AD925-B29B-4B9F-99BA-BAAD8E996E6F}
+		{DB14A81D-F477-4205-8F55-4966457EBE55} = {321AD925-B29B-4B9F-99BA-BAAD8E996E6F}
+		{2D52D507-57BA-42C5-BDEB-8B3A9CF7E08F} = {321AD925-B29B-4B9F-99BA-BAAD8E996E6F}
+		{AAE42E2D-53B7-47A1-89EB-E3302E03DF85} = {045685AF-2242-4236-83EE-90F37707E13D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
